@@ -1,0 +1,9 @@
+{
+  "name": "numerology-ast",
+  "version": "0.1.0",
+  "description": "Numerology calculations and compatibility helpers",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node --test"
+  }
+}

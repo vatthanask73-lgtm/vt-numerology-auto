@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "numerology-ast"
+version = "0.1.0"
+description = "Numerology calculations and compatibility helpers"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "Copilot" }]
+
+[project.scripts]
+numerology-ast = "numerology_ast.cli:main"
+
+[tool.setuptools]
+packages = ["numerology_ast"]
